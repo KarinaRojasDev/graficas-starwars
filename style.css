@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(221, 211, 211);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ejes{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.x{
+    color: #378ADD;
+    font-weight: bold;
+    font-size: 20px;
+}
+.y{
+    color: #E24B4A;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Lineas */
+/* Color del eje Y (vertical) */
+.ct-chart .ct-label.ct-vertical {
+    color: #E24B4A;
+    fill: #E24B4A;
+}
+
+/* Color del eje X (horizontal) */
+.ct-chart .ct-label.ct-horizontal {
+    color: #378ADD;
+    fill: #378ADD;
+}
+
+/* También puedes colorear las líneas de cuadrícula */
+.ct-chart .ct-grid.ct-vertical {
+    stroke: rgba(226, 75, 74, 0.2);
+}
+
+.ct-chart .ct-grid.ct-horizontal {
+    stroke: rgba(55, 138, 221, 0.2);
+}
+
+/* Barras */
+.ct-chart2 .ct-label.ct-vertical {
+    color: #E24B4A;
+    fill: #E24B4A;
+}
+
+/* Color del eje X (horizontal) */
+.ct-chart2 .ct-label.ct-horizontal {
+    color: #378ADD;
+    fill: #378ADD;
+}
+
+/* También puedes colorear las líneas de cuadrícula */
+.ct-chart2 .ct-grid.ct-vertical {
+    stroke: rgba(226, 75, 74, 0.2);
+}
+
+.ct-chart2 .ct-grid.ct-horizontal {
+    stroke: rgba(55, 138, 221, 0.2);
+}
