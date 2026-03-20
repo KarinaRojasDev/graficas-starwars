@@ -1,5 +1,5 @@
 # 📊 Gráficas Star Wars
-
+![graficas](./img/graficas-barras-lineas.png)
 Visualización de datos de la API de Star Wars ([SWAPI](https://swapi.info)) usando **Chartist.js**.
 
 ## 🚀 ¿Qué hace?
